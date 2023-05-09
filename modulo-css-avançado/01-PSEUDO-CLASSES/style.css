@@ -1,0 +1,27 @@
+/* seletor:pseudo-calsse{
+    propriedade: valor;
+} */
+
+p:first-child{
+    color: aquamarine;
+}
+
+p:last-child{
+    color: blueviolet;
+}
+
+p:not(.padrao){
+    color: brown;
+}
+
+/* li:nth-child(3n){//odd 
+    color:blue;
+} */
+
+li:nth-last-child(1){
+    color: red;
+}
+
+p:only-child{
+    color: bisque;
+}

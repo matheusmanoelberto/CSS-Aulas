@@ -1,0 +1,12 @@
+/* seletor::pseudo-elemento{
+    propriedade: valor;
+} */
+
+/* estilizar primeir letra */
+.paragrafo1::first-letter{
+    color: coral;
+}
+
+.paragrafo2::first-line{
+    color: coral;
+}
