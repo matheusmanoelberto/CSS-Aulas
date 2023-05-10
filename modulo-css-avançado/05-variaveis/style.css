@@ -1,0 +1,28 @@
+:root{
+    --cor-padrao: rgb(0, 9, 128);
+    --tamanho-de-fonte-padrao: 20px;
+}
+
+h2{
+    --cor-padrao: rgb(106, 112, 207);
+    --tamanho-de-fonte-padrao: 20px;
+    color:var(--cor-padrao, blue);
+    font-size: var(--tamanho-de-fonte-padrao);
+    background-color: var(--cor-padrao);
+}
+
+h3{
+    color: var(--cor-padrao, blue);
+    font-size: var(--tamanho-de-fonte-padrao);
+}
+
+p{
+    color: var(--cor-padrao);
+    font-size: var(--tamanho-de-fonte-padrao);
+}
+
+span{
+    color: var(--cor-padrao);
+    font-size: var(--tamanho-de-fonte-padrao
+    );
+}
